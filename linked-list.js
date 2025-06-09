@@ -20,7 +20,7 @@ function linkedList() {
         if (headNode === null) {
             return 0
         }
-        let size = 1;
+        let size = 0;
         let current = headNode;
         while (current.nextNode !== null) {
             current = current.nextNode;
@@ -52,7 +52,7 @@ function linkedList() {
             tail = null
         }
         let current = headNode;
-        for (let i = 0; i < size - 2; i++) {
+        for (let i = 0; i < size - 1; i++) {
             current = current.nextNode
         }
         current.nextNode = null;
