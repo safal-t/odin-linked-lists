@@ -2,7 +2,7 @@
 
 This project implements a singly linked list in JavaScript, following The Odin Project curriculum.
 
-## Classes
+## Factory Functions
 
 ### Node
 
@@ -29,9 +29,6 @@ This project implements a singly linked list in JavaScript, following The Odin P
 - `find(value)`: Returns the index of the node containing `value`, or `null` if not found.
 - `toString()`: Returns a string representation of the list in the format:  
    `( value ) -> ( value ) -> ( value ) -> null`
-
-## Extra Credit
-
 - `insertAt(value, index)`: Inserts a new node with the provided value at the given index.
 - `removeAt(index)`: Removes the node at the given index.
 
